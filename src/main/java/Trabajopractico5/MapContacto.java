@@ -46,8 +46,7 @@ public class MapContacto {
     }
 //B. buscarContacto() que en base al nro. de teléfono retorna el Contacto asociado al mismo. 
     public Contacto buscarContacto(Long telefono){
-        
-   
+  
         return guiaTelefonica.get(telefono);
         
     
@@ -55,7 +54,8 @@ public class MapContacto {
 //C. buscarTeléfono() que en base a un apellido nos devuelve un Set<Long> con los números 
 //de teléfono asociados a dicho apellido.  
     public Set<Long> buscarTelofono(String apellido){
-      Set<Long> telefono = new TreeSet<>(); 
+      Set<Long> telefono = new TreeSet<>();
+       
       for (Map.Entry<Long,Contacto> entry : guiaTelefonica.entrySet()){
           if(entry.getValue().getApellido().equalsIgnoreCase(apellido)){
               telefono.add(entry.getKey());
