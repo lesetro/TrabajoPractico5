@@ -5,6 +5,7 @@
 package Trabajopractico5;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.Map;
 import static java.util.Map.entry;
 import java.util.Objects;
@@ -45,7 +46,7 @@ public class MapContacto {
         }
     }
 //B. buscarContacto() que en base al nro. de teléfono retorna el Contacto asociado al mismo. 
-    public Contacto buscarContacto(Long telefono){
+    public  Contacto buscarContacto(Long telefono){
   
         return guiaTelefonica.get(telefono);
         
@@ -72,12 +73,24 @@ public class MapContacto {
        for(Contacto contacto : guiaTelefonica.values()){
            if(contacto.getCiudad().equalsIgnoreCase(ciudad)){
                clientesDeCiudad.add(contacto);
+               
           }
        }
        return clientesDeCiudad;
     }
 //E. borrarContacto() que en base al número de teléfono elimina el contacto del directorio. 
     public void borrarContacto(Long telefono, Contacto contacto){
-        guiaTelefonica.remove(telefono);
+        Iterator<Map.Entry<Long,Contacto>> iterator = guiaTelefonica.entrySet().iterator();
+        
+        while(iterator.hasNext()){
+            Map.Entry<Long,Contacto> entry = iterator.next();
+            if (entry.getKey().equals(telefono)) {
+                iterator.remove();
+                JOptionPane.showMessageDialog(null, telefono + " se borro sactifactoriamente ");
+            }
+        
+        
+        }
+        
     }
 }
