@@ -7,6 +7,7 @@ package Trabajopractico5;
 import java.util.ArrayList;
 import java.util.Map;
 import static java.util.Map.entry;
+import java.util.Objects;
 import java.util.Set;
 import java.util.TreeMap;
 import java.util.TreeSet;
@@ -44,7 +45,11 @@ public class MapContacto {
         }
     }
 //B. buscarContacto() que en base al nro. de teléfono retorna el Contacto asociado al mismo. 
-    public void buscarContacto(Long telefono, Contacto contacto){
+    public Contacto buscarContacto(Long telefono){
+        
+   
+        return guiaTelefonica.get(telefono);
+        
     
     }
 //C. buscarTeléfono() que en base a un apellido nos devuelve un Set<Long> con los números 
