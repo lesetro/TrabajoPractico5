@@ -30,24 +30,17 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="1" attributes="0">
-              <EmptySpace pref="21" max="32767" attributes="0"/>
-              <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-          </Group>
+          <Component id="jPanel8" min="-2" max="-2" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="1" attributes="0">
-              <EmptySpace min="0" pref="16" max="32767" attributes="0"/>
-              <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
-          </Group>
+          <Component id="jPanel8" alignment="0" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Container class="javax.swing.JPanel" name="jPanel3">
+    <Container class="javax.swing.JPanel" name="jPanel8">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="fa" green="db" red="ad" type="rgb"/>
@@ -61,7 +54,7 @@
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
-                          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jPanel7" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="1" attributes="0">
@@ -82,7 +75,7 @@
                           <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
                           <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
-                          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jPanel7" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <Component id="jPanel2" alignment="0" max="32767" attributes="0"/>
                   </Group>
@@ -92,7 +85,7 @@
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Container class="javax.swing.JPanel" name="jPanel1">
+        <Container class="javax.swing.JPanel" name="jPanel7">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="85" green="96" red="52" type="rgb"/>
@@ -106,20 +99,20 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="1" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="jLtelefono" min="-2" pref="120" max="-2" attributes="0"/>
+                              <Component id="jLtelefono2" min="-2" pref="120" max="-2" attributes="0"/>
                               <EmptySpace max="32767" attributes="0"/>
                               <Component id="jTexTelefono" min="-2" pref="222" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="1" attributes="0">
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                              <Component id="jLdni" min="-2" pref="120" max="-2" attributes="0"/>
+                              <Component id="jLdni2" min="-2" pref="120" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
                               <Component id="jTexDni" min="-2" pref="222" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="1" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jLnombre" alignment="0" min="-2" pref="120" max="-2" attributes="0"/>
-                                  <Component id="jLapellido" alignment="0" min="-2" pref="120" max="-2" attributes="0"/>
+                                  <Component id="jLnombre2" alignment="0" min="-2" pref="120" max="-2" attributes="0"/>
+                                  <Component id="jLapellido2" alignment="0" min="-2" pref="120" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace max="32767" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
@@ -128,12 +121,12 @@
                               </Group>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="jLdireccion" min="-2" pref="120" max="-2" attributes="0"/>
+                              <Component id="jLdireccion2" min="-2" pref="120" max="-2" attributes="0"/>
                               <EmptySpace max="32767" attributes="0"/>
                               <Component id="jTexDireccion" min="-2" pref="222" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="jLciudad" min="-2" pref="120" max="-2" attributes="0"/>
+                              <Component id="jLciudad2" min="-2" pref="120" max="-2" attributes="0"/>
                               <EmptySpace max="32767" attributes="0"/>
                               <Component id="jTexCiudad" min="-2" pref="222" max="-2" attributes="0"/>
                           </Group>
@@ -147,32 +140,32 @@
                   <Group type="102" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jLdni" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLdni2" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="jTexDni" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jLnombre" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLnombre2" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="jTexNombre" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jLapellido" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLapellido2" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="jTexApellido" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jLdireccion" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLdireccion2" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="jTexDireccion" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jLciudad" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLciudad2" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="jTexCiudad" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jLtelefono" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLtelefono2" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="jTexTelefono" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace pref="105" max="32767" attributes="0"/>
@@ -188,7 +181,7 @@
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTexDniActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JLabel" name="jLdireccion">
+            <Component class="javax.swing.JLabel" name="jLdireccion2">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Dialog" size="14" style="0"/>
@@ -196,7 +189,7 @@
                 <Property name="text" type="java.lang.String" value="Direccion ="/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JLabel" name="jLtelefono">
+            <Component class="javax.swing.JLabel" name="jLtelefono2">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Dialog" size="14" style="0"/>
@@ -206,7 +199,7 @@
             </Component>
             <Component class="javax.swing.JTextField" name="jTexNombre">
             </Component>
-            <Component class="javax.swing.JLabel" name="jLapellido">
+            <Component class="javax.swing.JLabel" name="jLapellido2">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Dialog" size="14" style="0"/>
@@ -214,7 +207,7 @@
                 <Property name="text" type="java.lang.String" value="Apellido ="/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JLabel" name="jLciudad">
+            <Component class="javax.swing.JLabel" name="jLciudad2">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Dialog" size="14" style="0"/>
@@ -224,7 +217,7 @@
             </Component>
             <Component class="javax.swing.JTextField" name="jTexDireccion">
             </Component>
-            <Component class="javax.swing.JLabel" name="jLnombre">
+            <Component class="javax.swing.JLabel" name="jLnombre2">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Dialog" size="14" style="0"/>
@@ -236,7 +229,7 @@
             </Component>
             <Component class="javax.swing.JTextField" name="jTexCiudad">
             </Component>
-            <Component class="javax.swing.JLabel" name="jLdni">
+            <Component class="javax.swing.JLabel" name="jLdni2">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Dialog" size="14" style="0"/>
@@ -275,14 +268,14 @@
                           <Component id="jBborrar" alignment="0" max="32767" attributes="0"/>
                           <Component id="jBsalir" alignment="0" max="32767" attributes="0"/>
                       </Group>
-                      <EmptySpace max="32767" attributes="0"/>
+                      <EmptySpace pref="12" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace pref="67" max="32767" attributes="0"/>
+                      <EmptySpace pref="83" max="32767" attributes="0"/>
                       <Component id="jBbuscar" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
                       <Component id="jBnuevo" min="-2" max="-2" attributes="0"/>

@@ -4,10 +4,13 @@
  */
 package Trabajopractico5;
 
+import java.util.Objects;
+
 
 public class Contacto {
     private String DNI;         
     private String nombre;
+
     private String apellido;
     private String ciudad;
     private String direccion;
